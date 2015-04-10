@@ -1,13 +1,13 @@
-#GPU architecture specification
+# GPU architecture specification
 GPU_ARCH_FLAG   = arch=compute_35,code=sm_35
 
 
-#C++ compiler configuration
+# C++ compiler configuration
 CXX             = g++
 CXXFLAGS        = -O3
 
 
-#CUDA compiler configuration
+# CUDA compiler configuration
 NVCC_HOME       = /usr/local/cuda
 NVCC            = nvcc
 CUDA_INC        = -I$(NVCC_HOME)/include
@@ -16,7 +16,7 @@ CUDA_FLAGS      = -O3 -m64 -gencode $(GPU_ARCH_FLAG)
 
 
 
-#Project configuration
+# Project configuration
 INCLUDE		= $(CUDA_INC)
 LIB		= $(CUDA_LIB)
 
