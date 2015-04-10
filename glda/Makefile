@@ -1,5 +1,5 @@
 #GPU architecture specification
-GPU_ARCH_FLAG   = arch=compute_20,code=sm_20
+GPU_ARCH_FLAG   = arch=compute_35,code=sm_35
 
 
 #C++ compiler configuration
@@ -8,7 +8,7 @@ CXXFLAGS        = -O3
 
 
 #CUDA compiler configuration
-NVCC_HOME       = /usr/local/cuda-5.0
+NVCC_HOME       = /usr/local/cuda
 NVCC            = nvcc
 CUDA_INC        = -I$(NVCC_HOME)/include
 CUDA_LIB        = -L$(NVCC_HOME)/lib64 -lcuda -lcudart
