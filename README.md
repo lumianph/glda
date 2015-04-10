@@ -6,12 +6,13 @@ GLDA (GPU-accelerated LDA) is an improved version based on the popular Latent Di
 ## INSTALL
 Please modify the Makefile to specific the compute capability of your NVIDIA GPU cards. Then just type 
 **make**
-Then an executable file lda is generated in the directory.
 
+Then an executable file lda is generated in the directory.
 
 ## Citation
 If you want to cite this work:
-Mian Lu, Ge Bai, Qiong Luo, Jie Tang, Jiuxin Zhao. Accelerating Topic Model Training on a Single Machine. APWeb 2013: 184-195
+
+**Mian Lu, Ge Bai, Qiong Luo, Jie Tang, Jiuxin Zhao. Accelerating Topic Model Training on a Single Machine. APWeb 2013: 184-195**
 
 ## Contact
 Mian Lu
